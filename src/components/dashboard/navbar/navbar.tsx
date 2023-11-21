@@ -27,9 +27,9 @@ const Navbar = () => {
         <div className={Styles.icons}>
           <MdOutlineMessage size={20} />
           <MdNotificationsNone size={20} />
-          <MdPublic size={20} />
+          <MdPublic size={20} />  
         </div>
-      </div>
+      </div>      
     </div>
   );
 };
