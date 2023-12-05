@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation";
 import React from "react";
 import Styles from "./navbar.module.css";
+import Badge from "@/utils/badge";
 import {
   MdOutlineSearch,
   MdOutlineMessage,
@@ -24,10 +25,12 @@ const Navbar = () => {
             className={Styles.search}
           />
         </div>
-        <div className={Styles.icons}>
+        <div >
           <MdOutlineMessage size={20} />
-          <MdNotificationsNone size={20} />
-          <MdPublic size={20} />  
+          <MdNotificationsNone size={20} count={10}/>
+          
+            <Badge variant="success" size="small" ><MdNotificationsNone/></Badge>
+         
         </div>
       </div>      
     </div>
