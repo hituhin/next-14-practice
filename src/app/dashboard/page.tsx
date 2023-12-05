@@ -10,7 +10,6 @@ const Dashboardpage = () => {
     backgroundColor: '#eddfb7',
     border: '2px solid black',
     color: 'darkblue',
-    border-radius: '25px'
     // Add any other CSS properties as needed
   };
   return (
